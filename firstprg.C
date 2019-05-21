@@ -1,10 +1,16 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-int n;
-scanf("%d",&n);
-if(n>=0)
-printf("positive");
-else
-printf("negative");
+    double number;
+
+    if (number <= 0.0)
+    {
+        if (number == 0.0)
+            printf("0");
+        else
+            printf("negative");
+    }
+    else
+        printf("positive");
+    return 0;
 }
