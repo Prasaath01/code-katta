@@ -7,11 +7,11 @@ int main()
     
     while(n<m)
     {
-         n++;
         if(n%2==0)
         {
             printf("%d ",n);
         }
+        n++;
     }
     
     return 0;
