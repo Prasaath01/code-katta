@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
-        long int sum=0,i,n;
+     int sum=0,i,n;
         scanf("%ld",&n);
         for(i=1;i<=n;i++)
         {
             printf("%d ",5*i);
         }
         
-        getch();
+        return 0;
 }
