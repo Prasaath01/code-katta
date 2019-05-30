@@ -6,7 +6,7 @@ int main()
  
   scanf("%d", &n);
  
-  for (c = 1; c < n; c++)
+  for (c = 1; c <=n; c++)
   {
     if (c <= 1)
       next = c;
